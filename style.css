@@ -8,6 +8,12 @@
   --border-radius: 10px;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
   height: 100vh;
   background-color: var(--bg-color);
@@ -27,12 +33,11 @@ body {
   border: 2px solid var(--border-color);
   border-radius: var(--border-radius);
   background-color: var(--bg-color);
-  padding: 20px;
   box-sizing: border-box;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -40,13 +45,12 @@ h3 {
   margin-top: 10px;
   width: 100%;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 6px;
   border-radius: var(--border-radius);
   border: 1px solid var(--border-color);
 }
 
 .btnGerar {
-  width: 100%;
   margin-top: 10px;
   font-weight: bold;
   background-color: var(--btn-color);
@@ -59,7 +63,7 @@ h3 {
 }
 
 .tabuada-container {
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
   flex-direction: column;
 }
@@ -73,7 +77,6 @@ h3 {
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
