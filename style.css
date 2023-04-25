@@ -1,0 +1,69 @@
+:root {
+    --bg-color: #02315E;
+    --bg-color-secondary:#03284b;
+    --text-color: #fff;
+    --btn-color: #2F70AF;
+    --btn-border-color: #00457E;
+    --border-color: #021a30;
+    --container-width: 380px;
+    --border-radius: 10px;
+
+  }
+  
+  body {
+    height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: var(--container-width);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius);
+    background-color: var(--bg-color-secondary);
+  }
+  
+  h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .form-control {
+    margin-top: 10px;
+  }
+  
+  .btnGerar {
+    width: 80px;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    border: 1px solid var(--btn-border-color);
+    border-radius: var(--border-radius);
+  }
+  
+  .tabuada-container {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .btn {
+    justify-content: center;
+    display: flex;
+  }
+  
+  #resultado {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
