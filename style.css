@@ -32,13 +32,17 @@ body {
   align-items: center;
   border: 2px solid var(--border-color);
   border-radius: var(--border-radius);
-  background-color: var(--bg-color);
+  background-color: #245b91;
   box-sizing: border-box;
 }
 
 h3 {
   font-size: 20px;
   text-align: center;
+}
+
+p{
+  padding:10px
 }
 
 .form-control {
