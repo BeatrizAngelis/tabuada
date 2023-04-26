@@ -1,7 +1,7 @@
 :root {
   --bg-color: #02315E;
   --text-color: #fff;
-  --btn-color: #2F70AF;
+  --btn-color:#3382cf;
   --btn-border-color: #00457E;
   --border-color: #021a30;
   --container-max-width: 380px;
@@ -32,7 +32,8 @@ body {
   align-items: center;
   border: 2px solid var(--border-color);
   border-radius: var(--border-radius);
-  background-color: #245b91;
+  background-color: #17518b;
+  padding:10px;
   box-sizing: border-box;
 }
 
